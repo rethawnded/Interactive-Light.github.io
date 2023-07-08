@@ -109,10 +109,21 @@ label.logo{
 	padding: o 100px;
 }
 @media screen and (max-width: 600px){
-	<h1>{
-		font-size: 36px;
-		line-height: 50px;
-		margin-top: 50px;
-		margin-right: 50px;
-	}
+	.hero{
+ width: 80%;
+
+
+ }
+ label.logo{
+font-size: 25px;
+padding: 0 60px;
+line-height: 20px;
+margin-left: 5px;
+margin-right: 20px;
+
+ }
+
+nav .menu-img{
+	margin-right: 3px;
+
 }
