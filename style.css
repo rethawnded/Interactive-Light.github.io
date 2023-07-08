@@ -109,7 +109,7 @@ label.logo{
 	padding: o 100px;
 }
 @media screen and (max-width: 600px){
-.hero{ width: 40%;
+.hero{ width: 100%;
 
 
  }
