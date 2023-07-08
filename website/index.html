@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+	<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scal=1.0">
+	<title>Lamp</title>
+<link rel="icon" type="image/png" href="images/logo.png">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="hero">
+	<nav>
+		<img src="images/menu.png" class=menu-img>
+		<label class="logo">My Lamp</label>
+		<ul>
+			<li><a href="stuff/About.html">About<a/><li>
+				<li><a href="stuff/Socials.html">Socials<a/><li>
+		</ul>
+		<button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+	</nav>
+	<div class="lamp-container">
+		<img src="images/lamp.png" class="lamp">
+		<img src="images/light.png" class="light" id="light">
+	</div>
+
+	<div class="text-container">
+		<h1>Lamp</h1>
+		<p>This is a lamp that you can turn on and off by clicking the button that's all it can do  for now :D</p>
+
+	
+	</div>
+
+
+	<script>
+		var btn = document.getElementById("btn");
+        var light = document.getElementById("light");
+
+
+		function toggleBtn(){
+			btn.classList.toggle("active");
+			light.classList.toggle("on");
+
+
+		}
+
+	</script>
+
+</body>
+</html>
